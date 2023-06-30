@@ -1,11 +1,18 @@
+@font-face {  font-family: Quando; src: url(fonts/Quando-Regular.ttf); format("truetype"); }
+@font-face {  font-family: SourceSansPro; src: url(fonts/SourceSansPro-Regular.ttf); format("truetype"); }
+@font-face {  font-family: Montserrat; src: url(fonts/Montserrat-Regular.ttf); format("truetype"); }
+
 body {
   background-color:#000000;
-  font-family: Arial, sans-serif;
+  font-family: SourceSansPro;
+  font-size: 20px;
 }
 
 h1 {
   color:#EEEEEE;
-  margin-left: 50px;
+  margin-left: 15px;
+  font-family: Quando;
+  font-size: 38px;
 }
 
 p {
@@ -17,38 +24,31 @@ img {
 	margin-left: 50px;
 }
 
-.container-header-home {
+#container-video-reel {
 	width: 500px;
-	padding: 20px;
+	padding: 50px;
 	text-align: center;
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	width: 50%;
-}
-
-.container-video-reel {
-	width: 500px;
-	padding: 20px;
-	text-align: center;
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	width: 50%;
-}
-
-.center-image {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	width: 50%;
+	width: 60%;
 }
 
 #container {
     display: flex;
-    align-items: center;
 }
 
-#container p {
-    margin-left: 1em;
+#container-header-home {
+	padding: 0px;
+	display: flex;
+	margin-left: auto;
+	margin-right: auto;
+	align-items: flex-end;
+	width: 90%;
+}
+
+#container-header-text {
+	display: normal;
+	align-items: normal;
+	padding: 0px;
 }
