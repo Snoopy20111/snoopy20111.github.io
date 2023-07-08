@@ -7,7 +7,6 @@ body {
   font-family: SourceSansPro;
   font-size: 20px;
 }
-
 h1 {
   color:#EEEEEE;
   margin-left: 15px;
@@ -15,40 +14,61 @@ h1 {
   font-size: 37px;
   margin-bottom: -8px;
 }
-
 h2 {
 	color:#EEEEEE;
 	margin-left: 0px;
 	font-family: Quando;
 	font-size: 30px;
 }
-
 p {
 	color:#EEEEEE;
 	margin-left: 0px;
 }
 
-#container-disclaimer-text {
-	text-align:center;
-	color:#EEEEEE;
-	margin-top: -10px;
-	margin-bottom: -10px;
-}
-
-.header {
+.header-hero {
 	top: 0;
-	position: sticky;
-	z-index: 1;
-	background-color: #222222;
-	margin-bottom: 0px;
-
+	position: relative;
+	background-color: #000000;
+	transition: 0.2s;
 }
-
+#container-header-home {
+	padding: 0px;
+	display: flex;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: -10px;
+	align-items: center;
+	width: 90%;
+}
+#container-header-block {
+	display: flex;
+	margin-left: auto;
+	margin-right: auto;
+}
+#container-header-text {
+	display: normal;
+	align-items: flex-start;
+	padding: 0px;
+	color: #FFFFFF;
+}
+#container-header-div {
+	display: normal;
+	align-items: center;
+	padding: 0px;
+	color: #D9D9D9;
+}
 #img-home {
 	margin-left: 50px;
-	width: 11%;
+	width: 130px;
 }
 
+.header-sidekick {
+	position: sticky;
+    top: 0;
+	z-index: 1;
+	margin: -25px 0em 3em 12em;
+	background-color: #222222;
+}
 .header-button {
 	border: none;
 	background-color: #000000;
@@ -60,12 +80,10 @@ p {
 	cursor: pointer;
 	font-family: SourceSansPro;
 }
-
 .header-button:hover {
 	background-color: #7F7F7F;
 	cursor: grab;
 }
-
 .header-button-disabled {
 	border: none;
 	color: white;
@@ -73,7 +91,6 @@ p {
 	padding: 0px 26px;
 	font-size: 22px;
 	float: left;
-	opacity: 0.9;
 	font-family: SourceSansPro;
 }
 
@@ -87,34 +104,10 @@ p {
 	margin-top: -15px;
 	width: 60%;
 }
-
-#container-header-home {
-	padding: 0px;
-	display: flex;
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: -10px;
-	align-items: center;
-	width: 90%;
-}
-
-#container-header-block {
-	display: flex;
-	margin-left: auto;
-	margin-right: auto;
-	
-}
-
-#container-header-text {
-	display: normal;
-	align-items: flex-start;
-	padding: 0px;
-	color: #FFFFFF;
-}
-
-#container-header-div {
-	display: normal;
-	align-items: center;
-	padding: 0px;
-	color: #D9D9D9;
+#container-disclaimer-text {
+	text-align:center;
+	display: block;
+	color:#EEEEEE;
+	margin-top: 0px;
+	margin-bottom: 0px;
 }
