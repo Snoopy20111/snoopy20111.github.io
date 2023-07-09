@@ -10,19 +10,17 @@ body {
 h1 {
   color:#EEEEEE;
   margin-left: 15px;
+  margin-bottom: -8px;
   font-family: Quando;
   font-size: 37px;
-  margin-bottom: -8px;
 }
 h2 {
 	color:#EEEEEE;
-	margin-left: 0px;
 	font-family: Quando;
 	font-size: 30px;
 }
 p {
 	color:#EEEEEE;
-	margin-left: 0px;
 }
 
 .header-hero {
@@ -34,16 +32,8 @@ p {
 #container-header-home {
 	padding: 0px;
 	display: flex;
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: -10px;
+	margin: -0.5em auto 0em 3em;
 	align-items: center;
-	width: 90%;
-}
-#container-header-block {
-	display: flex;
-	margin-left: auto;
-	margin-right: auto;
 }
 #container-header-text {
 	display: normal;
@@ -58,15 +48,15 @@ p {
 	color: #D9D9D9;
 }
 #img-home {
-	margin-left: 50px;
-	width: 130px;
+	margin-left: 3.25em;
+	width: 6.5em;
 }
 
 .header-sidekick {
 	position: sticky;
     top: 0;
 	z-index: 1;
-	margin: -25px 0em 3em 12em;
+	margin: -1.25em 0em 3em 12em;
 	background-color: #222222;
 }
 .header-button {
