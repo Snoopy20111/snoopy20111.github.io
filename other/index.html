@@ -9,8 +9,9 @@
 </head>
 
 <body>
+<div class="content">
 <!--Header (stationary)-->
-	<div class="header-hero" id="container-header-home">
+	<div class="header-hero">
 		<img id="img-home" src="../images/Logo03.svg" alt="Logan's logo. On a black background, a white rounded rectangle sits at an angle, with thin parallel lines and blocks on those lines resembling a mixing board." />
 		<div>
 			<h1 id="container-header-text">Logan Hardin</h1>
@@ -19,16 +20,32 @@
 	</div>
 <!--Header (sticks to the top)-->
 	<div class="header-sidekick">
-		<a target="_self" href="https://snoopy20111.github.io/">
-			<button class="header-button">Home</button>
-		</a>
-		<a target="_self" href="https://snoopy20111.github.io/games">
-			<button class="header-button">Games</button>
-		</a>
-		<button class="header-button-disabled">Other</button>
-		<a target="_self" href="https://snoopy20111.github.io/resume">
-			<button class="header-button">Resume</button>
-		</a>
+		<div class="header-sidekick-buttons">
+			<a target="_self" href="https://snoopy20111.github.io/">
+				<button class="header-button">Home</button>
+			</a>
+			<a target="_self" href="https://snoopy20111.github.io/games">
+				<button class="header-button">Games</button>
+			</a>
+			<button class="header-button-disabled">Other</button>
+			<a target="_self" href="https://snoopy20111.github.io/resume">
+				<button class="header-button">Resume</button>
+			</a>
+		</div>
+		<div class="header-sidekick-links">
+			<a target="_self" href="https://twitter.com/Snoopy_20111">
+				<img id="img-twitter" src="images/icon_twitter.svg" alt="Twitter Logo and link to Logan's Twitter page." />
+			</a>
+			<a target="_self" href="https://www.linkedin.com/in/logan-hardin-b5a3a3139/">
+				<img id="img-linkedin" src="images/icon_linkedin.svg" alt="LinkedIn logo and link to Logan's LinkedIn page." />
+			</a>
+			<a target="_self" href="https://snoopy20111.bandcamp.com/">
+				<img id="img-bandcamp" src="images/icon_bandcamp.svg" alt="Bandcamp logo and link to Logan's old Bandcamp. Following this link is not advised." />
+			</a>
+			<a target="_self" href="https://www.tumblr.com/snoopy20111">
+				<img id="img-tumblr" src="images/icon_tumblr.svg" alt="Tumblr logo and link to Logan's Tumblr account. This is significantly less professional, listener discretion is advised." />
+			</a>
+		</div>
 	</div>
 <!--Temp Header-->
 	<h2 style="text-align: center">Other</h2>
@@ -36,7 +53,7 @@
 	<div id="container-disclaimer-text">
 		<p>This is my temporary site, because Wix is expensive.</p>
 	</div>
-	<hr style="width: 80%">
+	<hr class="main_hr">
 <!--Temp content to fill the space.-->
 	<div id="container-disclaimer-text">
 		<p>-</p>
@@ -88,8 +105,23 @@
 	</div>
 <!--Footer, similar links as header-->
 	<footer style="text-align: center">
+		<div class="footer-links">
+			<a target="_self" href="https://twitter.com/Snoopy_20111">
+				<img id="img-twitter" src="images/icon_twitter.svg" alt="Twitter Logo and link to Logan's Twitter page." />
+			</a>
+			<a target="_self" href="https://www.linkedin.com/in/logan-hardin-b5a3a3139/">
+				<img id="img-linkedin" src="images/icon_linkedin.svg" alt="LinkedIn logo and link to Logan's LinkedIn page." />
+			</a>
+			<a target="_self" href="https://snoopy20111.bandcamp.com/">
+				<img id="img-bandcamp" src="images/icon_bandcamp.svg" alt="Bandcamp logo and link to Logan's old Bandcamp. Following this link is not advised." />
+			</a>
+			<a target="_self" href="https://www.tumblr.com/snoopy20111">
+				<img id="img-tumblr" src="images/icon_tumblr.svg" alt="Tumblr logo and link to Logan's Tumblr account. This is significantly less professional, listener discretion is advised." />
+			</a>
+		</div>
 		<p>Author: Logan Hardin</p>
 		<!--<p><a href="mailto:loganhardin.sound@gmail.com">loganhardin.sound@gmail.com</a></p>-->
-	</footer> 
+	</footer>
+</div>
 </body>
 </html>

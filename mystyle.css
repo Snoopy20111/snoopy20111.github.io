@@ -23,14 +23,18 @@ p {
 	color:#EEEEEE;
 }
 
+.content{
+	max-width: 1600px;
+	margin: auto;
+	min-width:60em;
+	width: auto !important;/* Firefox will set width as auto */
+	width:1000px;          /* As IE6 ignores !important it will set width as 1000px; */
+}
+
 .header-hero {
 	top: 0;
 	position: relative;
 	background-color: #000000;
-	transition: 0.2s;
-}
-#container-header-home {
-	padding: 0px;
 	display: flex;
 	margin: -0.5em auto 0em 3em;
 	align-items: center;
@@ -38,7 +42,6 @@ p {
 #container-header-text {
 	display: normal;
 	align-items: flex-start;
-	padding: 0px;
 	color: #FFFFFF;
 }
 #container-header-div {
@@ -53,12 +56,32 @@ p {
 	padding: .4em;
 }
 
+#img-twitter {
+	width: 1.1em;
+	padding: 0em .1em 0em .1em;
+}
+#img-linkedin {
+	width: 1.1em;
+	padding: 0em .1em 0em .1em;
+}
+#img-bandcamp {
+	width: 1.1em;
+	padding: 0em .1em 0em .1em;
+}
+#img-tumblr {
+	width: 1.1em;
+	padding: 0em .1em 0em .1em;
+}
+
 .header-sidekick {
 	position: sticky;
     top: 0;
 	z-index: 1;
-	margin: -1.25em 0em 3em 12em;
+	margin: -1.25em 0em 3em 13.5em;
 	background-color: #222222;
+}
+.header-sidekick-buttons{
+	
 }
 .header-button {
 	border: none;
@@ -83,6 +106,18 @@ p {
 	font-size: 22px;
 	float: left;
 	font-family: SourceSansPro;
+}
+.header-sidekick-links {
+	margin-right: 10em;
+	float: right;
+}
+
+.footer-links {
+	float: none;
+}
+
+.main_hr {
+	width: 80%;
 }
 
 #container-video-reel {
