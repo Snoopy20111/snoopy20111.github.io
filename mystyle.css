@@ -12,12 +12,12 @@ h1 {
   margin-left: 15px;
   margin-bottom: -8px;
   font-family: Quando;
-  font-size: 37px;
+  font-size: 1.8em;
 }
 h2 {
 	color:#EEEEEE;
 	font-family: Quando;
-	font-size: 30px;
+	font-size: 1.5em;
 }
 p {
 	color:#EEEEEE;
@@ -52,6 +52,7 @@ p {
 }
 #img-home {
 	margin-left: 3.25em;
+	margin-top: .5em;
 	width: 5.70em;
 	padding: .4em;
 }
