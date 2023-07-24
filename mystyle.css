@@ -39,6 +39,10 @@ p {
 	margin: -0.5em auto 0em 3em;
 	align-items: center;
 }
+.header-hero-text-and-div {
+	width:70%;
+}
+
 #container-header-text {
 	display: normal;
 	align-items: flex-start;
@@ -56,7 +60,6 @@ p {
 	width: 5.70em;
 	padding: .4em;
 }
-
 #img-twitter {
 	width: 1.1em;
 	padding: 0em .1em 0em .1em;
@@ -82,7 +85,7 @@ p {
 	background-color: #222222;
 }
 .header-sidekick-buttons{
-	
+	width:70%;
 }
 .header-button {
 	border: none;
@@ -92,12 +95,11 @@ p {
 	font-size: 22px;
 	float: left;
 	transition-duration: 0.2s;
-	cursor: pointer;
 	font-family: SourceSansPro;
 }
 .header-button:hover {
 	background-color: #7F7F7F;
-	cursor: grab;
+	cursor: pointer;
 }
 .header-button-disabled {
 	border: none;
@@ -113,12 +115,26 @@ p {
 	float: right;
 }
 
-.footer-links {
-	float: none;
+.content-normal-div {
+	margin: 1em 7em 1em 7em;
 }
 
-.main_hr {
-	width: 80%;
+.content-quick-link-div {
+	margin: 0em 0em 0em 0em;
+}
+.content-quick-link-box {
+	overflow: clip;
+	text-align: center;
+	column-count: 6;
+	column-gap: .1em;
+	padding: .2em;
+	border: .1em;
+	border-color: #EEEEEE;
+	background-color: #444444;
+}
+.content-bio-div {
+	column-count: 2;
+	column-gap: 2em;
 }
 
 #container-video-reel {
@@ -137,4 +153,12 @@ p {
 	color:#EEEEEE;
 	margin-top: 0px;
 	margin-bottom: 0px;
+}
+
+.footer-links {
+	float: none;
+}
+
+.main_hr {
+	width: 80%;
 }
