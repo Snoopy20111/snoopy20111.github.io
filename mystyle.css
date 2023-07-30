@@ -128,10 +128,12 @@ p {
 	float: right;
 }
 
+.main_hr {
+	width: 80%;
+}
 .content-normal-div {
 	margin: 1em 7em 1em 7em;
 }
-
 .content-quick-link-div {
 	margin: 0em 0em 0em 0em;
 	column-count: 4;
@@ -169,10 +171,22 @@ p {
 	margin-bottom: 0px;
 }
 
+.footer-main {
+	text-align: center;
+}
 .footer-links {
 	float: none;
 }
 
-.main_hr {
-	width: 80%;
+.project-div {
+	margin: 1em 7em 1em 7em;
+	column-count: 2;
+	column-gap: 2em;
+}
+.project-title {
+	margin: 1em 7em 1em 4.6em;
+}
+.project-content-left {
+}
+.project-content-right {
 }
