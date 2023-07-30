@@ -78,7 +78,7 @@ p {
 }
 #img-quicklink-prev {
 	width: 8em;
-	padding: 0em .1em 0em .1em;
+	padding: .1em .1em .1em .1em;
 	border: 10px;
 	border-color: #555555;
 }
