@@ -76,6 +76,19 @@ p {
 	width: 1.1em;
 	padding: 0em .1em 0em .1em;
 }
+#img-quicklink-prev {
+	width: 8em;
+	padding: 0em .1em 0em .1em;
+	border: 10px;
+	border-color: #555555;
+}
+#img-bio {
+	width: 15em;
+	padding: 1em .1em 1em .1em;
+	border: 10px;
+	border-color: #555555;
+}
+
 
 .header-sidekick {
 	position: sticky;
@@ -121,18 +134,19 @@ p {
 
 .content-quick-link-div {
 	margin: 0em 0em 0em 0em;
+	column-count: 4;
+	column-gap: .8em;
 }
 .content-quick-link-box {
 	overflow: clip;
 	text-align: center;
-	column-count: 6;
-	column-gap: .1em;
 	padding: .2em;
 	border: .1em;
 	border-color: #EEEEEE;
 	background-color: #444444;
 }
 .content-bio-div {
+	margin: 1em 7em 1em 7em;
 	column-count: 2;
 	column-gap: 2em;
 }
