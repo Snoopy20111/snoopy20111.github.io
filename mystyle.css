@@ -33,7 +33,6 @@ p {
 
 .header-hero {
 	top: 0;
-	position: relative;
 	background-color: #000000;
 	display: flex;
 	margin: -0.5em auto 0em 3em;
@@ -48,10 +47,8 @@ p {
 	align-items: flex-start;
 	color: #FFFFFF;
 }
-#container-header-div {
-	display: normal;
+#container-header-hr {
 	align-items: center;
-	padding: 0px;
 	color: #D9D9D9;
 }
 #img-home {
@@ -139,6 +136,7 @@ p {
 	column-count: 4;
 	column-gap: .8em;
 }
+
 .content-quick-link-box {
 	overflow: clip;
 	text-align: center;
