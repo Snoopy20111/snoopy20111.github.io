@@ -31,6 +31,9 @@ p {
 	width:1000px;          /* As IE6 ignores !important it will set width as 1000px; */
 }
 
+.undecorated-links {
+	text-decoration:none;
+}
 .header-hero {
 	top: 0;
 	background-color: #000000;
@@ -134,8 +137,6 @@ p {
 .content-quick-link-div {
 	margin: 0em 0em 0em 0em;
 	display: flex;
-	column-count: 4;
-	column-gap: .8em;
 }
 
 .content-quick-link-box {
