@@ -19,6 +19,11 @@ h2 {
 	font-family: Quando;
 	font-size: 1.5em;
 }
+h3 {
+	color:#EEEEEE;
+	font-family: Montserrat;
+	font-size: 1.4em;
+}
 p {
 	color:#EEEEEE;
 }
@@ -181,7 +186,7 @@ p {
 }
 
 .project-div {
-	margin: 1em 7em 1em 7em;
+	margin: 1em 7em 2em 7em;
 	column-count: 2;
 	column-gap: 2em;
 }
