@@ -218,6 +218,8 @@
 	}
 	.project-content-right {
 	}
+	.project-video-embed {
+	}
 
 	.img-reascript-gif {
 		width: 450px;
@@ -405,14 +407,19 @@
 	}
 
 	.project-div {
-		margin: 1em 4em 2em 4em;
+		margin: 1em 1em 2em 1em;
 	}
 	.project-title {
-		margin: 1em 7em 1em 4.6em;
+		margin: 1em 1em 1em 1em;
 	}
 	.project-content-left {
+		width: 95%;
 	}
 	.project-content-right {
+		width: 95%;
+	}
+	.project-video-embed {
+		width: 95%;
 	}
 
 	.img-reascript-gif {
