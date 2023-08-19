@@ -228,6 +228,30 @@
 	.project-content-right {
 	}
 	.project-video-embed {
+		--div-width: 450px;
+		width: var(--div-width);
+		height: calc(var(--div-width) * 9 / 16);
+	}
+	.project-bandcamp-embed {
+		border: 0;
+		width: 100%;
+		height: 120px;
+	}
+	#roboxing-bandcamp {
+		margin-top: 4em;
+	}
+	.download-button {
+		border: none;
+		background-color: #000000;
+		color: #EEEEEE;
+		padding: 0px 6px;
+		font-size: 22px;
+		float: left;
+		transition-duration: 0.2s;
+		font-family: SourceSansPro;
+	}
+	.download-button:hover {
+		background-color: #7F7F7F;
 	}
 
 	.img-reascript-gif {
@@ -430,16 +454,39 @@
 		margin: 1em 1em 1em 1em;
 	}
 	.project-content-left {
-		width: 95%;
+		width: 100%;
 	}
 	.project-content-right {
-		width: 95%;
+		width: 100%;
 	}
 	.project-video-embed {
-		width: 95%;
+		width: 100%;
+		height: 200px;
+		margin: 1.5em 0em;
+	}
+	.project-bandcamp-embed {
+		border: 0;
+		width: 100%;
+		height: 120px;
+	}
+	#roboxing-bandcamp {
+		margin-top: 0.5em;
+	}
+	.download-button {
+		border: none;
+		background-color: #000000;
+		color: #EEEEEE;
+		padding: 0px 6px;
+		font-size: 22px;
+		transition-duration: 0.2s;
+		font-family: SourceSansPro;
+		align-items: center;
+	}
+	.download-button:hover {
+		background-color: #7F7F7F;
 	}
 
 	.img-reascript-gif {
 		width: 350px;
+		margin-top: 0.4em;
 	}
-}
