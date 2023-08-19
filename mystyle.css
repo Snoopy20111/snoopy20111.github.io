@@ -68,40 +68,42 @@
 		margin-top: .5em;
 		width: 5.70em;
 		padding: .4em;
+		top: 0;
+		z-index: 10;
 	}
 	
 	
 	#img-twitter-header {
 		width: 1.1em;
-		padding: 0em .1em 0em .1em;
+		padding: .1em .1em 0em .1em;
 	}
 	#img-twitter-footer {
 		width: 1.1em;
-		padding: 0em .1em 0em .1em;
+		padding: .1em .1em 0em .1em;
 	}
 	#img-linkedin-header {
 		width: 1.1em;
-		padding: 0em .1em 0em .1em;
+		padding: .1em .1em 0em .1em;
 	}
 	#img-linkedin-footer {
 		width: 1.1em;
-		padding: 0em .1em 0em .1em;
+		padding: .1em .1em 0em .1em;
 	}
 	#img-bandcamp-header {
 		width: 1.1em;
-		padding: 0em .1em 0em .1em;
+		padding: .1em .1em 0em .1em;
 	}
 	#img-bandcamp-footer {
 		width: 1.1em;
-		padding: 0em .1em 0em .1em;
+		padding: .1em .1em 0em .1em;
 	}
 	#img-tumblr-header {
 		width: 1.1em;
-		padding: 0em .1em 0em .1em;
+		padding: .1em .1em 0em .1em;
 	}
 	#img-tumblr-footer {
 		width: 1.1em;
-		padding: 0em .1em 0em .1em;
+		padding: .1em .1em 0em .1em;
 	}
 	
 	#img-quicklink-prev {
@@ -122,8 +124,14 @@
 		position: sticky;
 		top: 0;
 		z-index: 1;
+		background-color: #000000;
+	}
+	.header-sidekick-background {
+		position: sticky;
+		z-index: 0;
+		color: #000000;
+		height: 28px;
 		margin: -1.25em 0em 3em 13.5em;
-		background-color: #222222;
 	}
 	.header-sidekick-buttons{
 		width:70%;
@@ -241,7 +249,7 @@
 	  margin-left: 12px;
 	  margin-bottom: -6px;
 	  font-family: Quando;
-	  font-size: 1.8em;
+	  font-size: 1.9em;
 	}
 	h2 {
 		color:#EEEEEE;
@@ -292,19 +300,19 @@
 	}
 
 	#img-twitter-footer {
-		width: 1.0em;
+		width: 1.75em;
 		padding: 0em .1em 0em .1em;
 	}
 	#img-linkedin-footer {
-		width: 1.0em;
+		width: 1.75em;
 		padding: 0em .1em 0em .1em;
 	}
 	#img-bandcamp-footer {
-		width: 1.0em;
+		width: 1.75em;
 		padding: 0em .1em 0em .1em;
 	}
 	#img-tumblr-footer {
-		width: 1.0em;
+		width: 1.75em;
 		padding: 0em .1em 0em .1em;
 	}
 
@@ -322,14 +330,20 @@
 
 
 	.header-sidekick {
-		/*position: sticky;*/
+		position: sticky;
 		top: 0;
 		z-index: 1;
-		margin: -0.5em 0em 2.5em 0em;
-		background-color: #222222;
+		margin: -0.46em 0em 0em 0em;
+		background-color: #000000;
+	}
+	.header-sidekick-background {
+		position: sticky;
+		z-index: 0;
+		color: #000000;
+		height: 28px;
 	}
 	.header-sidekick-buttons{
-		margin-left: 3.5em;
+		margin-left: 3.9em;
 		margin-right: auto;
 	}
 	.header-button {
