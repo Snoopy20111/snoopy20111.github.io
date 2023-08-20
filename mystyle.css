@@ -28,6 +28,13 @@
 		font-family: Montserrat;
 		font-size: 1.4em;
 	}
+	h4 {
+		color:#EEEEEE;
+		font-family: SourceSansPro-Light;
+		font-size: 1.2em;
+		margin-top: 0em;
+		margin-bottom: 0em;
+	}
 	p {
 		color:#EEEEEE;
 	}
@@ -286,6 +293,11 @@
 		font-family: Montserrat;
 		font-size: 1.4em;
 	}
+	h4 {
+		color:#EEEEEE;
+		font-family: Quando;
+		font-size: 1.4em;
+	}
 	p {
 		color:#EEEEEE;
 	}
@@ -415,7 +427,7 @@
 	.content-quick-link-box {
 		overflow: clip;
 		text-align: center;
-		padding: .4em;
+		padding: .2em;
 		border: .1em solid #CCCCCC;
 		background-color: #444444;
 	}
