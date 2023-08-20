@@ -1,7 +1,11 @@
 /*Shared formattin*/
 @font-face {  font-family: Quando; src: url(fonts/Quando-Regular.ttf); format("truetype"); }
 @font-face {  font-family: SourceSansPro; src: url(fonts/SourceSansPro-Regular.ttf); format("truetype"); }
-@font-face {  font-family: Montserrat; src: url(fonts/Montserrat-Regular.ttf); format("truetype"); }
+@font-face {  font-family: SourceSansPro-Light; src: url(fonts/SourceSansPro-Light.ttf); format("truetype"); }
+@font-face {  font-family: Montserrat; src: url(fonts/Montserrat-Regular.otf); format("truetype"); }
+@font-face {  font-family: Montserrat-SemiBold; src: url(fonts/Montserrat-SemiBold.otf); format("truetype"); }
+@font-face {  font-family: Montserrat-Medium; src: url(fonts/Montserrat-Medium.otf); format("truetype"); }
+@font-face {  font-family: Montserrat-Light; src: url(fonts/Montserrat-Light.otf); format("truetype"); }
 
 
 /*Desktop Formatting*/
@@ -38,7 +42,6 @@
 	p {
 		color:#EEEEEE;
 	}
-
 	.content{
 		max-width: 1600px;
 		margin: auto;
@@ -46,7 +49,6 @@
 		width: auto !important;/* Firefox will set width as auto */
 		width:1000px;          /* As IE6 ignores !important it will set width as 1000px; */
 	}
-
 	.undecorated-links {
 		text-decoration:none;
 	}
@@ -60,7 +62,6 @@
 	.header-hero-text-and-div {
 		width: 100%;
 	}
-
 	#container-header-text {
 		display: normal;
 		align-items: flex-start;
@@ -78,8 +79,6 @@
 		top: 0;
 		z-index: 10;
 	}
-	
-	
 	#img-twitter-header {
 		width: 1.1em;
 		padding: .1em .1em 0em .1em;
@@ -112,20 +111,17 @@
 		width: 1.1em;
 		padding: .1em .1em 0em .1em;
 	}
-	
 	#img-quicklink-prev {
-		width: 8em;
-		padding: .1em .1em .1em .1em;
-		border: 10px;
-		border-color: #555555;
+		width: 10em;
+		margin: .1em .1em .1em .1em;
+		border: 2px solid #4B4B4B;
 	}
 	#img-bio {
 		width: 15em;
-		padding: 1em .1em 1em .1em;
-		border: 10px;
-		border-color: #555555;
+		margin: 1em .1em 1em .1em;
+		border: 4px solid #4B4B4B;
+		float: right;
 	}
-
 	.header-sidekick {
 		position: sticky;
 		top: 0;
@@ -169,7 +165,6 @@
 		margin-right: 10em;
 		float: right;
 	}
-
 	.main_hr {
 		margin: 0px 125px;
 	}
@@ -197,7 +192,6 @@
 		column-count: 2;
 		column-gap: 2em;
 	}
-
 	#container-video-reel {
 		padding: 0px;
 		text-align: center;
@@ -214,14 +208,12 @@
 		margin-top: 0px;
 		margin-bottom: 0px;
 	}
-
 	.footer-main {
 		text-align: center;
 	}
 	.footer-links {
 		float: none;
 	}
-
 	.project-div {
 		margin: 1em 7em 2em 7em;
 		column-count: 2;
@@ -247,20 +239,24 @@
 	#roboxing-bandcamp {
 		margin-top: 4em;
 	}
+	#img-arte-lumiere {
+		width: 90%;
+	}
 	.download-button {
 		border: none;
-		background-color: #000000;
+		background-color: #222222;
 		color: #EEEEEE;
-		padding: 0px 6px;
+		padding: 4px 10px;
 		font-size: 22px;
 		float: left;
 		transition-duration: 0.2s;
 		font-family: SourceSansPro;
+		display: flex;
+		align-items: center;
 	}
 	.download-button:hover {
 		background-color: #7F7F7F;
 	}
-
 	.img-reascript-gif {
 		width: 450px;
 	}
@@ -295,14 +291,15 @@
 	}
 	h4 {
 		color:#EEEEEE;
-		font-family: Quando;
-		font-size: 1.4em;
+		font-family: SourceSansPro-Light;
+		font-size: 1.2em;
+		margin-top: 0em;
+		margin-bottom: 0em;
 	}
 	p {
 		color:#EEEEEE;
 	}
-
-	.content{
+	.content {
 		margin: auto;
 		width: auto !important;/* Firefox will set width as auto */
 	}
@@ -319,7 +316,6 @@
 	.header-hero-text-and-div {
 		width: 100%;
 	}
-
 	#container-header-text {
 		display: normal;
 		align-items: flex-start;
@@ -335,7 +331,6 @@
 		width: 4em;
 		padding: .4em;
 	}
-
 	#img-twitter-footer {
 		width: 1.75em;
 		padding: 0em .1em 0em .1em;
@@ -352,7 +347,6 @@
 		width: 1.75em;
 		padding: 0em .1em 0em .1em;
 	}
-
 	#img-quicklink-prev {
 		width: 8em;
 		padding: .1em .1em .1em .1em;
@@ -360,12 +354,11 @@
 		border-color: #555555;
 	}
 	#img-bio {
-		padding: 0.5em .1em 0.5em .1em;
-		border: 10px #555555;
-		
+		width: 15em;
+		margin: 1em .1em 1em .1em;
+		border: 4px solid #4B4B4B;
+		align-items: center;
 	}
-
-
 	.header-sidekick {
 		position: sticky;
 		top: 0;
@@ -408,7 +401,6 @@
 	.header-sidekick-links {
 		display: none;
 	}
-
 	.main_hr {
 		margin: 0px, 50px, 0px, 50px;
 	}
@@ -434,7 +426,6 @@
 	.content-bio-div {
 		margin: 1em 1em 1em 1em;
 	}
-
 	#container-video-reel {
 		padding: 0px;
 		text-align: center;
@@ -451,19 +442,17 @@
 		margin-top: 0px;
 		margin-bottom: 0px;
 	}
-
 	.footer-main {
 		text-align: center;
 	}
 	.footer-links {
 		float: none;
 	}
-
 	.project-div {
 		margin: 1em 1em 2em 1em;
 	}
 	.project-title {
-		margin: 1em 1em 1em 1em;
+		margin: 16px 16px 16px 16px;
 	}
 	.project-content-left {
 		width: 100%;
@@ -474,19 +463,23 @@
 	.project-video-embed {
 		width: 100%;
 		height: 200px;
-		margin: 1.5em 0em;
+		margin: 1.0em 0em 0.5em 0em;
 	}
 	.project-bandcamp-embed {
 		border: 0;
 		width: 100%;
 		height: 120px;
+		margin: 0em 0em 0em 0em
 	}
 	#roboxing-bandcamp {
 		margin-top: 0.5em;
 	}
+	#img-arte-lumiere {
+		width: 100%;
+	}
 	.download-button {
 		border: none;
-		background-color: #000000;
+		background-color: #333333;
 		color: #EEEEEE;
 		padding: 0px 6px;
 		font-size: 22px;
@@ -497,8 +490,7 @@
 	.download-button:hover {
 		background-color: #7F7F7F;
 	}
-
 	.img-reascript-gif {
-		width: 350px;
+		width: 100%;
 		margin-top: 0.4em;
 	}
