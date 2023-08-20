@@ -1,1 +1,48 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"><svg width="100%" height="100%" viewBox="0 0 172 172" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;"><g id="BandCamp"><g id="B"><g id="g32"><clipPath id="_clip1"><path d="M112.259,78.956c-7.141,-0 -10.79,5.62 -10.79,14.088c0,8.004 3.946,14.012 10.79,14.012c7.741,0 10.643,-7.084 10.643,-14.012c-0.006,-7.235 -3.652,-14.088 -10.645,-14.088m-18.973,-21.015l8.483,0l0,20.321l0.15,0c2.307,-3.847 7.143,-6.235 11.46,-6.235c12.128,0 18.009,9.549 18.009,21.174c-0,10.696 -5.209,20.781 -16.596,20.781c-5.209,0 -10.79,-1.305 -13.321,-6.542l-0.148,0l0,5.469l-8.037,-0l-0,-54.967l0,-0.001"/></clipPath><g clip-path="url(#_clip1)"><g id="g38"><rect id="path44" x="91.338" y="55.995" width="41.994" height="59.933" style="fill:#f0f0f0;fill-rule:nonzero;"/></g></g></g></g><g id="C"><g id="g48"><clipPath id="_clip2"><path d="M162.671,86.426c-0.67,-4.85 -4.092,-7.47 -8.78,-7.47c-4.393,0 -10.568,2.388 -10.568,14.474c-0,6.622 2.827,13.628 10.195,13.628c4.911,-0 8.333,-3.392 9.153,-9.088l8.483,-0c-1.563,10.316 -7.738,16.012 -17.636,16.012c-12.056,0 -18.679,-8.851 -18.679,-20.552c0,-12.008 6.326,-21.4 18.977,-21.4c8.929,-0 16.522,4.618 17.338,14.396l-8.469,-0l-0.014,-0"/></clipPath><g clip-path="url(#_clip2)"><g id="g54"><rect id="path60" x="132.894" y="70.084" width="40.206" height="45.844" style="fill:#f0f0f0;fill-rule:nonzero;"/></g></g></g></g><g id="Parallelogram"><g id="g64"><clipPath id="_clip3"><path d="M63.626,112.789l-63.626,-0l29.713,-54.848l63.626,0l-29.713,54.848"/></clipPath><g clip-path="url(#_clip3)"><g id="g70"><rect id="path76" x="-1.946" y="55.995" width="97.231" height="58.739" style="fill:#f0f0f0;fill-rule:nonzero;"/></g></g></g></g></g></svg>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 172 56" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g id="BandCamp">
+        <g id="B">
+            <g id="g32">
+                <g>
+                    <clipPath id="_clip1">
+                        <path d="M111.861,20.955C104.72,20.955 101.071,26.575 101.071,35.044C101.071,43.048 105.017,49.056 111.861,49.056C119.602,49.056 122.504,41.972 122.504,35.044C122.498,27.808 118.852,20.955 111.859,20.955M92.886,-0.06L101.369,-0.06L101.369,20.261L101.519,20.261C103.826,16.414 108.662,14.026 112.979,14.026C125.107,14.026 130.988,23.575 130.988,35.201C130.988,45.897 125.779,55.982 114.392,55.982C109.183,55.982 103.602,54.677 101.071,49.44L100.923,49.44L100.923,54.909L92.886,54.909L92.886,-0.06"/>
+                    </clipPath>
+                    <g clip-path="url(#_clip1)">
+                        <g id="g38">
+                            <rect id="path44" x="90.94" y="-2.006" width="41.995" height="59.934" style="fill:rgb(240,240,240);"/>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+        <g id="C">
+            <g id="g48">
+                <g>
+                    <clipPath id="_clip2">
+                        <path d="M162.274,28.425C161.604,23.575 158.182,20.955 153.494,20.955C149.101,20.955 142.926,23.343 142.926,35.43C142.926,42.052 145.753,49.058 153.121,49.058C158.032,49.058 161.454,45.666 162.274,39.97L170.757,39.97C169.194,50.286 163.019,55.982 153.121,55.982C141.065,55.982 134.442,47.131 134.442,35.43C134.442,23.421 140.768,14.029 153.419,14.029C162.348,14.029 169.941,18.647 170.757,28.425L162.274,28.425"/>
+                    </clipPath>
+                    <g clip-path="url(#_clip2)">
+                        <g id="g54">
+                            <rect id="path60" x="132.496" y="12.083" width="40.207" height="45.845" style="fill:rgb(240,240,240);"/>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+        <g id="Parallelogram">
+            <g id="g64">
+                <g>
+                    <clipPath id="_clip3">
+                        <path d="M63.227,54.789L-0.4,54.789L29.314,-0.06L92.941,-0.06L63.227,54.789"/>
+                    </clipPath>
+                    <g clip-path="url(#_clip3)">
+                        <g id="g70">
+                            <rect id="path76" x="-2.346" y="-2.006" width="97.233" height="58.74" style="fill:rgb(240,240,240);"/>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
