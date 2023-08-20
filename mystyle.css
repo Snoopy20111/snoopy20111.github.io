@@ -84,32 +84,36 @@
 		padding: .1em .1em 0em .1em;
 	}
 	#img-twitter-footer {
-		width: 1.1em;
+		width: 1.5em;
 		padding: .1em .1em 0em .1em;
+		margin: 0em .1em;
 	}
 	#img-linkedin-header {
 		width: 1.1em;
 		padding: .1em .1em 0em .1em;
 	}
 	#img-linkedin-footer {
-		width: 1.1em;
+		width: 1.5em;
 		padding: .1em .1em 0em .1em;
+		margin: 0em .1em;
 	}
 	#img-bandcamp-header {
 		width: 1.1em;
 		padding: .1em .1em 0em .1em;
 	}
 	#img-bandcamp-footer {
-		width: 1.1em;
+		width: 1.5em;
 		padding: .1em .1em 0em .1em;
+		margin: 0em .1em;
 	}
 	#img-tumblr-header {
 		width: 1.1em;
 		padding: .1em .1em 0em .1em;
 	}
 	#img-tumblr-footer {
-		width: 1.1em;
+		width: 1.5em;
 		padding: .1em .1em 0em .1em;
+		margin: 0em .1em;
 	}
 	#img-quicklink-prev {
 		width: 10em;
@@ -168,6 +172,9 @@
 	.main_hr {
 		margin: 0px 125px;
 	}
+	.minor_hr {
+		margin: 0px 0px;
+	}
 	.content-normal-div {
 		margin: 1em 7em 1em 7em;
 	}
@@ -219,6 +226,9 @@
 		column-count: 2;
 		column-gap: 2em;
 	}
+	.project-div-singlecolumn {
+		margin: 1em 7em 2em 7em;
+	}
 	.project-title {
 		margin: 1em 7em 1em 4.6em;
 	}
@@ -243,7 +253,7 @@
 		width: 90%;
 	}
 	.download-button {
-		border: none;
+		border: 1px solid #4B4B4B;
 		background-color: #222222;
 		color: #EEEEEE;
 		padding: 4px 10px;
@@ -478,10 +488,10 @@
 		width: 100%;
 	}
 	.download-button {
-		border: none;
+		border: 1px solid #4B4B4B;
 		background-color: #333333;
 		color: #EEEEEE;
-		padding: 0px 6px;
+		padding: 1px 7px;
 		font-size: 22px;
 		transition-duration: 0.2s;
 		font-family: SourceSansPro;
