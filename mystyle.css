@@ -52,6 +52,10 @@
 	.undecorated-links {
 		text-decoration:none;
 	}
+	.decorated-links {
+		color: #EEEEEE;
+		text-decoration:underline solid #EEEEEE 1px;
+	}
 	.header-hero {
 		top: 0;
 		background-color: #000000;
@@ -315,6 +319,10 @@
 	}
 	.undecorated-links {
 		text-decoration:none;
+	}
+	.decorated-links {
+		color: #EEEEEE;
+		text-decoration:underline solid #EEEEEE 1px;
 	}
 	.header-hero {
 		top: 0;
