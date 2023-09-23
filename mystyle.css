@@ -1,4 +1,4 @@
-/*Shared formattin*/
+/*Shared formatting*/
 @font-face {  font-family: Quando; src: url(fonts/Quando-Regular.ttf); format("truetype"); }
 @font-face {  font-family: SourceSansPro; src: url(fonts/SourceSansPro-Regular.ttf); format("truetype"); }
 @font-face {  font-family: SourceSansPro-Light; src: url(fonts/SourceSansPro-Light.ttf); format("truetype"); }
@@ -42,7 +42,10 @@
 	p {
 		color:#EEEEEE;
 	}
-	.content{
+	.remove-top-margin-text {
+		margin: 0em 0em 1em 0em;
+	}
+	.content {
 		max-width: 1600px;
 		margin: auto;
 		min-width:60em;
@@ -177,9 +180,13 @@
 	}
 	.main_hr {
 		margin: 0px 125px;
+		color:#CFCFCF;
+		height: 1.3px;
+		background-color: #CFCFCF;
 	}
 	.minor_hr {
-		margin: 0px 0px;
+		margin: 0px 125px;
+		color:#888888;
 	}
 	.content-normal-div {
 		margin: 1em 7em 1em 7em;
@@ -240,6 +247,9 @@
 	.project-title {
 		margin: 1em 7em 1em 4.6em;
 	}
+	.subproject-title {
+		margin: 0em 0em 1em 0em;
+	}
 	.project-content-left {
 	}
 	.project-content-right {
@@ -261,10 +271,11 @@
 		height: 120px;
 	}
 	#roboxing-bandcamp {
-		margin-top: 4em;
+		margin-top: 2.3em;
 	}
 	#img-arte-lumiere {
 		width: 90%;
+		margin-top: 0.5em;
 	}
 	.download-button {
 		border: 1px solid #4B4B4B;
@@ -435,6 +446,9 @@
 		display: none;
 	}
 	.main_hr {
+		margin: 0px, 50px, 0px, 50px;
+	}
+	.minor_hr {
 		margin: 0px, 50px, 0px, 50px;
 	}
 	.content-normal-div {
