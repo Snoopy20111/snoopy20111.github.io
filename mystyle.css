@@ -14,6 +14,9 @@
 	  background-color:#000000;
 	  font-family: SourceSansPro;
 	  font-size: 20px;
+	  max-width: 1600px;
+	  min-width: 1110px;
+	  margin: 8px min(0px,((100% - 1110px) / 2)) 8px min(0px,((100% - 1110px) / 2));
 	}
 	h1 {
 	  color:#EEEEEE;
@@ -48,7 +51,7 @@
 	.content {
 		max-width: 1600px;
 		margin: auto;
-		min-width:1110px;
+		min-width:1120px;
 		width: auto !important;/* Firefox will set width as auto */
 		width:1110px;          /* As IE6 ignores !important it will set width as 1100px; */
 	}
