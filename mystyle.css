@@ -131,7 +131,7 @@
 		border: 2px solid #4B4B4B;
 	}
 	#img-bio {
-		width: 15em;
+		width: 16em;
 		margin: 1em .1em 1em .1em;
 		border: 4px solid #4B4B4B;
 		display: flex;
@@ -219,6 +219,13 @@
 	}
 	.content-bio-div {
 		margin: 2em 7em 1em 7em;
+		display: flex;
+	}
+	.content-bio-text {
+		width:67.5%;
+		margin-right:20px;
+	}
+	.content-bio-img {
 	}
 	#container-video-reel {
 		padding: 0px;
@@ -479,6 +486,10 @@
 	}
 	.content-bio-div {
 		margin: 1em 1em 1em 1em;
+	}
+	.content-bio-text {
+	}
+	.content-bio-img {
 	}
 	#container-video-reel {
 		padding: 0px;
