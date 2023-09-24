@@ -48,7 +48,7 @@
 	.content {
 		max-width: 1600px;
 		margin: auto;
-		min-width:60em;
+		min-width:960px;
 		width: auto !important;/* Firefox will set width as auto */
 		width:1000px;          /* As IE6 ignores !important it will set width as 1000px; */
 	}
@@ -115,7 +115,7 @@
 		padding: 0em 0em 0em 0em;
 	}
 	#img-tumblr-header {
-		height: 1.12em;
+		height: 1.11em;
 		margin: 0em 0.05em;
 	}
 	#img-tumblr-footer {
@@ -188,12 +188,16 @@
 		margin: 0px 125px;
 		color:#888888;
 	}
-	.content-normal-div {
-		margin: 1em 7em 1em 7em;
+	.content-quicklinks-group-div {
+		margin: 20px 125px 20px 125px;
+	}
+	.content-quicklinks-group-title {
+		margin: 25px 0px 25px 10px;
 	}
 	.content-quick-link-div {
-		margin: 0em auto 0em auto;
+		margin: 0px -15px 0px -15px;
 		display: flex;
+		flex-wrap: wrap;
 		align-items: center;
 		justify-content: center;
 	}
@@ -210,9 +214,7 @@
 		padding: .3em;
 	}
 	.content-bio-div {
-		margin: 1em 7em 1em 7em;
-		column-count: 2;
-		column-gap: 2em;
+		margin: 2em 7em 1em 7em;
 	}
 	#container-video-reel {
 		padding: 0px;
@@ -451,7 +453,7 @@
 	.minor_hr {
 		margin: 0px, 50px, 0px, 50px;
 	}
-	.content-normal-div {
+	.content-quicklinks-group-div {
 		margin: 0em 1em 0em 1em;
 	}
 	.content-quick-link-div {
@@ -473,10 +475,6 @@
 	}
 	.content-bio-div {
 		margin: 1em 1em 1em 1em;
-	}
-	.content-bio-div-left {
-	}
-	.content-bio-div-right {
 	}
 	#container-video-reel {
 		padding: 0px;
