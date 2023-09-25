@@ -287,15 +287,16 @@
 	.project-content-right {
 	}
 	.project-video-embed {
-		--div-width: 425px;
+		--div-width: max(375px,min(45vw, 450px));
 		width: var(--div-width);
 		height: calc(var(--div-width) * 9 / 16);
 	}
 	.project-slideshow-embed {
-		--div-width: 500px;
+		--div-width: max(375px,min(45vw, 500px));
 		width: var(--div-width);
-		height: calc(var(--div-width) * 9 / 16);
-		margin-bottom: 1em;
+		height: calc(var(--div-width) * 10 / 16);
+		margin: 0px 0px 20px 0px;
+		
 	}
 	.project-bandcamp-embed {
 		border: 0;
@@ -326,7 +327,10 @@
 		background-color: #7F7F7F;
 	}
 	.img-reascript-gif {
-		width: 450px;
+		width: min(100%, 450px);
+	}
+	#img-reaper-logo {
+		margin: -40px 0px 0px 0px;
 	}
 }
 
