@@ -292,7 +292,7 @@
 	.project-content-right {
 	}
 	.project-video-embed {
-		--div-width: max(375px,min(45vw, 450px));
+		--div-width: max(408px,min(38.5vw, 450px));
 		width: var(--div-width);
 		height: calc(var(--div-width) * 9 / 16);
 	}
