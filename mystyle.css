@@ -9,7 +9,7 @@
 
 
 /*Desktop Formatting*/
-@media (min-width: 481px) {
+@media (min-width: 610px) {
 	body {
 	  background-color:#000000;
 	  font-family: SourceSansPro;
@@ -343,7 +343,7 @@
 /****************************/
 
 /*Mobile formatting*/
-@media (max-width: 481px) {
+@media (max-width: 610px) {
 	body {
 	  background-color:#000000;
 	  font-family: SourceSansPro;
