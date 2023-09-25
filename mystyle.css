@@ -16,6 +16,7 @@
 	  font-size: 20px;
 	  min-width: 1110px;
 	  margin: 8px min(0px,((100% - 1110px) / 2)) 8px min(0px,((100% - 1110px) / 2));
+	  color:#EEEEEE;
 	}
 	h1 {
 	  color:#EEEEEE;
@@ -41,8 +42,17 @@
 		margin-top: 0em;
 		margin-bottom: 0em;
 	}
+	h6 {
+		font-family: SourceSansPro;
+		font-size: .65em;
+		font-weight: normal;
+		margin: -10px 0px 0px 0px;
+	}
 	p {
 		color:#EEEEEE;
+	}
+	ul {
+		margin: -10px 0px 20px -20px;
 	}
 	.remove-top-margin-text {
 		margin: 0em 0em 1em 0em;
@@ -227,6 +237,15 @@
 	}
 	.content-bio-img {
 	}
+	.content-bio-favgames-div {
+		margin: 2em 7em 1em 7em;
+		display: flex;
+		justify-items: center;
+	}
+	.content-bio-favgames-column {
+		margin: 0px 15px 0px 0px;
+		width: 33.33%;
+	}
 	#container-video-reel {
 		padding: 0px;
 		text-align: center;
@@ -320,6 +339,7 @@
 	  background-color:#000000;
 	  font-family: SourceSansPro;
 	  font-size: 16px;
+	  color:#EEEEEE;
 	}
 	h1 {
 	  color:#EEEEEE;
@@ -344,6 +364,15 @@
 		font-size: 1.2em;
 		margin-top: 0em;
 		margin-bottom: 0em;
+	}
+	h6 {
+		font-family: SourceSansPro;
+		font-size: .65em;
+		font-weight: normal;
+		margin: -8px 0px 12px 0px;
+	}
+	ul {
+		margin: 3px 0px 15px -20px;
 	}
 	p {
 		color:#EEEEEE;
@@ -490,6 +519,9 @@
 	.content-bio-text {
 	}
 	.content-bio-img {
+	}
+	.content-bio-favgames-div {
+		margin: 1em 1em 1em 1em;
 	}
 	#container-video-reel {
 		padding: 0px;
