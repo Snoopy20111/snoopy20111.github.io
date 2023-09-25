@@ -276,6 +276,11 @@
 	.project-div-singlecolumn {
 		margin: 1em 7em 2em 7em;
 	}
+	.project-follow-div {
+		margin: -10px 7em 2em 7em;
+		column-count: 2;
+		column-gap: 2em;
+	}
 	.project-title {
 		margin: 1em 7em 1em 4.6em;
 	}
