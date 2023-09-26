@@ -238,13 +238,21 @@
 	.content-bio-img {
 	}
 	.content-bio-favgames-div {
-		margin: 2em 7em 1em 7em;
+		margin: 2em 6em 1em 7em;
 		display: flex;
 		justify-items: center;
 	}
-	.content-bio-favgames-column {
+	.content-bio-favgames-column-1 {
+		margin: 0px 6vw 0px 0px;
+		width: max(480px, 33%)
+	}
+	.content-bio-favgames-column-2 {
+		margin: 0px 8vw 0px 0px;
+		width: max(320px, 50%)
+	}
+	.content-bio-favgames-column-3 {
 		margin: 0px 15px 0px 0px;
-		width: 33.33%;
+		width: max(570px, 46%)
 	}
 	#container-video-reel {
 		padding: 0px;
