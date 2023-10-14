@@ -213,8 +213,7 @@
 		justify-content: center;
 	}
 	.content-quick-link-separator {
-		margin-left: .4em;
-		margin-right: .4em;
+		margin: 0px 8px 8px 8px;
 		padding: .2em;
 	}
 	.content-quick-link-box {
