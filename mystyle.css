@@ -462,7 +462,7 @@
 		position: sticky;
 		top: 0;
 		z-index: 1;
-		margin: -0.46em 0em 0em 0em;
+		margin: -0.35em 0em 0em 0em;
 		background-color: #000000;
 	}
 	.header-sidekick-background {
@@ -472,8 +472,8 @@
 		height: 28px;
 	}
 	.header-sidekick-buttons{
-		margin-right: 0em 0em 0em 0em;
-		float: right;
+		margin-left: 5em;
+		float: left;
 	}
 	.header-button {
 		border: none;
