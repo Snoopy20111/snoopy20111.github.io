@@ -364,7 +364,7 @@
 	h2 {
 		color:#EEEEEE;
 		font-family: Quando;
-		font-size: 1.5em;
+		font-size: 1.55em;
 	}
 	h3 {
 		color:#EEEEEE;
@@ -426,20 +426,37 @@
 		width: 4em;
 		padding: .4em;
 	}
+	#img-twitter-header {
+		height: 1.02em;
+		margin: 0em 0.05em;
+	}
 	#img-twitter-footer {
 		width: 1.65em;
 		padding: .1em .1em 0em .1em;
 		margin: 0em .1em;
+	}
+	#img-linkedin-header {
+		height: 1.1em;
+		margin: 0em 0em 0em 0.15em;
 	}
 	#img-linkedin-footer {
 		width: 1.5em;
 		padding: .1em .1em 0em .1em;
 		margin: 0em .1em;
 	}
+	#img-bandcamp-header {
+		width: 2.35em;
+		margin: 0em 0.05em 0em 0.1em;
+		padding: 0em 0em 0em 0em;
+	}
 	#img-bandcamp-footer {
 		width: 3em;
 		margin: 0em 0em 0em 0.1em;
 		padding: 0em 0em 0em 0em;
+	}
+	#img-tumblr-header {
+		height: 1.11em;
+		margin: 0em 0.05em;
 	}
 	#img-tumblr-footer {
 		width: 0.95em;
@@ -469,7 +486,7 @@
 		position: sticky;
 		z-index: 0;
 		color: #000000;
-		height: 28px;
+		height: 35px;
 	}
 	.header-sidekick-buttons{
 		margin-left: 5em;
@@ -484,9 +501,11 @@
 		float: left;
 		transition-duration: 0.2s;
 		font-family: SourceSansPro;
+		width: 86px;
 	}
 	.header-button:hover {
 		background-color: #7F7F7F;
+		cursor: pointer;
 	}
 	.header-button-disabled {
 		border: none;
@@ -496,18 +515,22 @@
 		font-size: 22px;
 		float: left;
 		font-family: SourceSansPro;
+		width: 86px;
 	}
 	.header-sidekick-links {
-		display: none;
+		margin-right: 1em;
+		float: right;
 	}
 	.main_hr {
-		margin: 0px, 50px, 0px, 50px;
+		color:#CFCFCF;
+		background-color: #CFCFCF;
+		margin: 0px 10px;
 	}
 	.minor_hr {
-		margin: 0px, 50px, 0px, 50px;
+		margin: 0px 75px;
 	}
 	.content-quicklinks-group-div {
-		margin: 0em 1em 0em 1em;
+		margin: 0em 1em 1em 1em;
 	}
 	.content-quick-link-div {
 		margin: -0.75em 0em 0em 0em;
@@ -535,6 +558,20 @@
 	}
 	.content-bio-favgames-div {
 		margin: 1em 1em 1em 1em;
+		display: flex;
+		justify-items: center;
+	}
+	.content-bio-favgames-column-1 {
+		margin: 0px 6vw 0px 0px;
+		width: max(550px, 33%)
+	}
+	.content-bio-favgames-column-2 {
+		margin: 0px 8vw 0px 0px;
+		width: max(550px, 50%)
+	}
+	.content-bio-favgames-column-3 {
+		margin: 0px 15px 0px 0px;
+		width: max(580px, 46%)
 	}
 	#container-video-reel {
 		padding: 0px;
@@ -545,7 +582,7 @@
 		margin-top: 0px;
 		width: 95%;
 	}
-	#container-disclaimer-text {
+	#container-reel-text {
 		text-align:center;
 		display: block;
 		color:#EEEEEE;
@@ -615,7 +652,7 @@
 /****************************/
 
 /*Mobile formatting*/
-@media (max-width: 610px) {
+@media (max-width: 609px) {
 	body {
 	  background-color:#000000;
 	  font-family: SourceSansPro;
@@ -755,6 +792,7 @@
 	}
 	.header-button:hover {
 		background-color: #7F7F7F;
+		cursor: pointer;
 	}
 	.header-button-disabled {
 		border: none;
