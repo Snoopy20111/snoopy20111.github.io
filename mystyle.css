@@ -259,7 +259,7 @@
 		margin-top: -15px;
 		width: 60%;
 	}
-	#container-disclaimer-text {
+	#container-reel-text {
 		text-align:center;
 		display: block;
 		color:#EEEEEE;
@@ -464,7 +464,7 @@
 		margin: 0em .1em;
 	}
 	#img-quicklink-prev {
-		width: 8em;
+		width: 9em;
 		margin: .1em .1em .1em .1em;
 		border: 2px solid #4B4B4B;
 	}
@@ -851,7 +851,7 @@
 		margin-top: 0px;
 		width: 95%;
 	}
-	#container-disclaimer-text {
+	#container-reel-text {
 		text-align:center;
 		display: block;
 		color:#EEEEEE;
