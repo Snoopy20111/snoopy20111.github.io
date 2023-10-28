@@ -339,7 +339,12 @@
 		width: min(100%, 450px);
 	}
 	#img-reaper-logo {
-		margin: -40px 0px 0px 0px;
+		display: block;
+		margin: 0px auto 0px auto;
+	}
+	#button-reaper-repo {
+		display: block;
+		margin: 0px auto 0px auto;
 	}
 }
 
@@ -608,26 +613,35 @@
 		width: 100%;
 	}
 	.project-video-embed {
-		width: 100%;
-		height: 200px;
-		margin: 1.0em 0em 0.5em 0em;
+		--div-width: max(550px,min(38.5vw, 450px));
+		width: var(--div-width);
+		height: calc(var(--div-width) * 9 / 16);
+		display: block;
+		margin: 20px auto 0px auto;
 	}
 	.project-slideshow-embed {
-		width: 100%;
-		height: 200px;
-		margin: 1.0em 0em 0.5em 0em;
+		--div-width: max(550px,min(45vw, 500px));
+		width: var(--div-width);
+		height: calc(var(--div-width) * 10 / 16);
+		margin: 0px 0px 20px 0px;
+		display: block;
+		margin: 20px auto 0px auto;
 	}
 	.project-bandcamp-embed {
 		border: 0;
-		width: 100%;
+		width: 90%;
 		height: 120px;
-		margin: 0em 0em 0em 0em
+		display: block;
+		margin: 20px auto 0px auto;
 	}
 	#roboxing-bandcamp {
 		margin-top: 0.5em;
 	}
 	#img-arte-lumiere {
-		width: 100%;
+		--div-width: max(550px,min(38.5vw, 450px));
+		width: var(--div-width);
+		display: block;
+		margin: 20px auto 0px auto;
 	}
 	.download-button {
 		border: 1px solid #4B4B4B;
@@ -643,8 +657,17 @@
 		background-color: #7F7F7F;
 	}
 	.img-reascript-gif {
-		width: 100%;
-		margin-top: 0.4em;
+		width: 85%;
+		display: block;
+		margin: 0.4em auto 0px auto;
+	}
+	#img-reaper-logo {
+		display: block;
+		margin: 0px auto 0px auto;
+	}
+	#button-reaper-repo {
+		display: block;
+		margin: 0px auto 0px auto;
 	}
 }
 
