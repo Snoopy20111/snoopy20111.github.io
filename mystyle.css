@@ -938,3 +938,11 @@
 		width: 100%;
 		margin-top: 0.4em;
 	}
+	#img-reaper-logo {
+		display: block;
+		margin: 0px auto 0px auto;
+	}
+	#button-reaper-repo {
+		display: block;
+		margin: 0px auto 0px auto;
+	}
