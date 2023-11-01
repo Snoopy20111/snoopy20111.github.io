@@ -330,7 +330,7 @@
 		font-family: SourceSansPro;
 		display: flex;
 		align-items: center;
-		margin-right: 1em;
+		margin: 0px 16px 6px 0px;
 	}
 	.download-button:hover {
 		background-color: #7F7F7F;
