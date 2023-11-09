@@ -8,24 +8,25 @@
 /*Desktop Formatting*/
 @media (min-width: 875px) {
 	body {
-	  background-color:#000000;
-	  font-family: SourceSansPro;
-	  font-size: 20px;
-	  min-width: 1110px;
-	  margin: 8px min(0px,((100% - 1110px) / 2)) 8px min(0px,((100% - 1110px) / 2));
-	  color:#EEEEEE;
+		background-color:#000000;
+		font-family: SourceSansPro;
+		font-size: 20px;
+		min-width: 1110px;
+		margin: 8px min(0px,((100% - 1110px) / 2)) 8px min(0px,((100% - 1110px) / 2));
+		color:#EEEEEE;
 	}
 	h1 {
-	  color:#EEEEEE;
-	  margin-left: 15px;
-	  margin-bottom: -8px;
-	  font-family: Quando;
-	  font-size: 1.8em;
+		color:#EEEEEE;
+		margin-left: 15px;
+		margin-bottom: -8px;
+		font-family: Quando;
+		font-size: 1.8em;
 	}
 	h2 {
 		color:#EEEEEE;
 		font-family: Quando;
 		font-size: 1.5em;
+		text-decoration: underline;
 	}
 	h3 {
 		color:#EEEEEE;
@@ -38,6 +39,13 @@
 		font-size: 1.2em;
 		margin-top: 0em;
 		margin-bottom: 0em;
+	}
+	h5 {
+		color:#EEEEEE;
+		font-family: SourceSansPro-Light;
+		font-size: 1.2em;
+		margin-top: -1.35em;
+		margin-bottom: 0.45em;
 	}
 	h6 {
 		font-family: SourceSansPro;
@@ -329,7 +337,7 @@
 		margin: 1em 7em 1em 4.6em;
 	}
 	.subproject-title {
-		margin: 0em 0em 1em 0em;
+		margin: 0em 0em 1.25em 0em;
 	}
 	.project-content-left {
 	}
@@ -416,6 +424,7 @@
 		color:#EEEEEE;
 		font-family: Quando;
 		font-size: 1.55em;
+		text-decoration: underline;
 	}
 	h3 {
 		color:#EEEEEE;
@@ -427,6 +436,13 @@
 		font-family: SourceSansPro-Light;
 		font-size: 1.2em;
 		margin-top: 0em;
+		margin-bottom: 0em;
+	}
+	h5 {
+		color:#EEEEEE;
+		font-family: SourceSansPro-Light;
+		font-size: 1.2em;
+		margin-top: -0.8em;
 		margin-bottom: 0em;
 	}
 	h6 {
@@ -774,6 +790,7 @@
 		color:#EEEEEE;
 		font-family: Quando;
 		font-size: 1.5em;
+		text-decoration: underline;
 	}
 	h3 {
 		color:#EEEEEE;
@@ -785,6 +802,13 @@
 		font-family: SourceSansPro-Light;
 		font-size: 1.2em;
 		margin-top: 0em;
+		margin-bottom: 0em;
+	}
+	h5 {
+		color:#EEEEEE;
+		font-family: SourceSansPro-Light;
+		font-size: 1.2em;
+		margin-top: -0.8em;
 		margin-bottom: 0em;
 	}
 	h6 {
