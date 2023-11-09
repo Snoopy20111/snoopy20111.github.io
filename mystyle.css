@@ -48,6 +48,9 @@
 	p {
 		color:#EEEEEE;
 	}
+	.small-text {
+		font-size: .8em;
+	}
 	ul {
 		margin: -10px 0px 20px -20px;
 	}
@@ -60,6 +63,34 @@
 		min-width:1120px;
 		width: auto !important;/* Firefox will set width as auto */
 		width:1110px;          /* As IE6 ignores !important it will set width as 1100px; */
+	}
+	.skip-to-content-link-top {
+		color: white;
+		background-color: #3D3D3D;
+		height: 20px;
+		right: 30%;
+		text-decoration:none;
+		padding: 8px;
+		position: absolute;
+		transform: translateY(-100%);
+		transition: transform 0.25s;
+	}
+	.skip-to-content-link-top:focus {
+		transform: translateY(0%);
+	}
+	.skip-to-content-link-mid {
+		color: white;
+		background-color: #3D3D3D;
+		height: 20px;
+		right: 30%;
+		text-decoration:none;
+		padding: 8px;
+		position: absolute;
+		transform: translateY(-100%);
+		transition: transform 0.25s;
+	}
+	.skip-to-content-link-mid:focus {
+		transform: translateY(0%);
 	}
 	.undecorated-links {
 		text-decoration:none;
@@ -159,7 +190,13 @@
 	}
 	.header-sidekick-buttons{
 	}
-	.header-button {
+	a.header-button-link {
+		-webkit-appearance: button;
+		-moz-appearance: button;
+		appearance: button;
+		text-decoration:none;
+		text-align: center;
+		
 		border: none;
 		background-color: #000000;
 		color: #EEEEEE;
@@ -170,11 +207,17 @@
 		font-family: SourceSansPro;
 		width: 120px;
 	}
-	.header-button:hover {
+	a.header-button-link:hover {
 		background-color: #7F7F7F;
 		cursor: pointer;
 	}
-	.header-button-disabled {
+	a.header-button-disabled {
+		-webkit-appearance: button;
+		-moz-appearance: button;
+		appearance: button;
+		text-decoration:none;
+		text-align: center;
+		
 		border: none;
 		color: white;
 		background-color: #3D3D3D;
@@ -253,9 +296,7 @@
 		padding: 0px;
 		text-align: center;
 		display: block;
-		margin-left: auto;
-		margin-right: auto;
-		margin-top: -15px;
+		margin: -15px auto 1em auto;
 		width: 60%;
 	}
 	#container-reel-text {
@@ -318,7 +359,13 @@
 		width: 90%;
 		margin-top: 0.5em;
 	}
-	.download-button {
+	a.download-button-link {
+		-webkit-appearance: button;
+		-moz-appearance: button;
+		appearance: button;
+		text-decoration:none;
+		text-align: center;
+		
 		border: 1px solid #4B4B4B;
 		background-color: #222222;
 		color: #EEEEEE;
@@ -331,7 +378,7 @@
 		align-items: center;
 		margin: 0px 16px 6px 0px;
 	}
-	.download-button:hover {
+	a.download-button-link:hover {
 		background-color: #7F7F7F;
 	}
 	.img-reascript-gif {
@@ -394,9 +441,26 @@
 	p {
 		color:#EEEEEE;
 	}
+	.small-text {
+		font-size: .85em;
+	}
 	.content {
 		margin: auto;
 		width: auto !important;/* Firefox will set width as auto */
+	}
+	.skip-to-content-link-top {
+		color: white;
+		background-color: #3D3D3D;
+		height: 20px;
+		right: 10%;
+		text-decoration:none;
+		padding: 8px;
+		position: absolute;
+		transform: translateY(-150%);
+		transition: transform 0.25s;
+	}
+	.skip-to-content-link-top:focus {
+		transform: translateY(80%);
 	}
 	.undecorated-links {
 		text-decoration:none;
@@ -496,30 +560,42 @@
 		margin-left: 5em;
 		float: left;
 	}
-	.header-button {
+	a.header-button-link {
+		-webkit-appearance: button;
+		-moz-appearance: button;
+		appearance: button;
+		text-decoration:none;
+		text-align: center;
+		
 		border: none;
 		background-color: #000000;
 		color: #EEEEEE;
-		padding: 0px 6px;
+		padding: 0px 5px;
 		font-size: 22px;
 		float: left;
 		transition-duration: 0.2s;
 		font-family: SourceSansPro;
-		width: 86px;
+		width: 80px;
 	}
-	.header-button:hover {
+	a.header-button-link:hover {
 		background-color: #7F7F7F;
 		cursor: pointer;
 	}
-	.header-button-disabled {
+	a.header-button-disabled {
+		-webkit-appearance: button;
+		-moz-appearance: button;
+		appearance: button;
+		text-decoration:none;
+		text-align: center;
+		
 		border: none;
 		color: white;
 		background-color: #3D3D3D;
-		padding: 0px 6px;
+		padding: 0px 5px;
 		font-size: 22px;
 		float: left;
 		font-family: SourceSansPro;
-		width: 86px;
+		width: 80px;
 	}
 	.header-sidekick-links {
 		margin-right: 1em;
@@ -642,7 +718,13 @@
 		display: block;
 		margin: 20px auto 0px auto;
 	}
-	.download-button {
+	a.download-button-link {
+		-webkit-appearance: button;
+		-moz-appearance: button;
+		appearance: button;
+		text-decoration:none;
+		text-align: center;
+		
 		border: 1px solid #4B4B4B;
 		background-color: #333333;
 		color: #EEEEEE;
@@ -652,7 +734,7 @@
 		font-family: SourceSansPro;
 		align-items: center;
 	}
-	.download-button:hover {
+	a.download-button-link:hover {
 		background-color: #7F7F7F;
 	}
 	.img-reascript-gif {
@@ -717,9 +799,26 @@
 	p {
 		color:#EEEEEE;
 	}
+	.small-text {
+		font-size: .9em;
+	}
 	.content {
 		margin: auto;
 		width: auto !important;/* Firefox will set width as auto */
+	}
+	.skip-to-content-link-top {
+		color: white;
+		background-color: #3D3D3D;
+		height: 20px;
+		right: 15%;
+		text-decoration:none;
+		padding: 8px;
+		position: absolute;
+		transform: translateY(-150%);
+		transition: transform 0.25s;
+	}
+	.skip-to-content-link-top:focus {
+		transform: translateY(0%);
 	}
 	.undecorated-links {
 		text-decoration:none;
@@ -802,7 +901,13 @@
 		margin-right: 0em 0em 0em 0em;
 		float: right;
 	}
-	.header-button {
+	a.header-button-link {
+		-webkit-appearance: button;
+		-moz-appearance: button;
+		appearance: button;
+		text-decoration:none;
+		text-align: center;
+		
 		border: none;
 		background-color: #000000;
 		color: #EEEEEE;
@@ -812,11 +917,17 @@
 		transition-duration: 0.2s;
 		font-family: SourceSansPro;
 	}
-	.header-button:hover {
+	a.header-button-link:hover {
 		background-color: #7F7F7F;
 		cursor: pointer;
 	}
-	.header-button-disabled {
+	a.header-button-disabled {
+		-webkit-appearance: button;
+		-moz-appearance: button;
+		appearance: button;
+		text-decoration:none;
+		text-align: center;
+		
 		border: none;
 		color: white;
 		background-color: #3D3D3D;
@@ -920,17 +1031,23 @@
 	#img-arte-lumiere {
 		width: 100%;
 	}
-	.download-button {
+	a.download-button-link {
+		-webkit-appearance: button;
+		-moz-appearance: button;
+		appearance: button;
+		text-decoration:none;
+		text-align: center;
+		
 		border: 1px solid #4B4B4B;
 		background-color: #333333;
 		color: #EEEEEE;
 		padding: 1px 7px;
-		font-size: 22px;
+		font-size: 20px;
 		transition-duration: 0.2s;
 		font-family: SourceSansPro;
 		align-items: center;
 	}
-	.download-button:hover {
+	a.download-button-link:hover {
 		background-color: #7F7F7F;
 	}
 	.img-reascript-gif {
