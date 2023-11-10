@@ -33,25 +33,31 @@
 		font-family: Montserrat;
 		font-size: 1.4em;
 	}
-	h4 {
+	.quick-link-text {
 		color:#EEEEEE;
-		font-family: SourceSansPro-Light;
+		font-family: SourceSansPro;
 		font-size: 1.2em;
 		margin-top: 0em;
 		margin-bottom: 0em;
 	}
-	h5 {
+	.audio-described-reel-text {
+		background-color:#000000;
+		font-family: SourceSansPro;
+		font-size: 16px;
+		color:#EEEEEE;
+	}
+	.project-subtitle-text {
 		color:#EEEEEE;
 		font-family: SourceSansPro-Light;
 		font-size: 1.2em;
 		margin-top: -1.35em;
 		margin-bottom: 0.45em;
 	}
-	h6 {
-		font-family: SourceSansPro;
-		font-size: .65em;
-		font-weight: normal;
-		margin: -10px 0px 0px 0px;
+	.favorites-headers {
+		color:#EEEEEE;
+		font-family: SourceSansPro-Light;
+		font-size: 1.2em;
+		margin: 0em 0em 1em 0em;
 	}
 	p {
 		color:#EEEEEE;
@@ -431,25 +437,19 @@
 		font-family: Montserrat;
 		font-size: 1.4em;
 	}
-	h4 {
+	.quick-link-text {
 		color:#EEEEEE;
-		font-family: SourceSansPro-Light;
+		font-family: SourceSansPro;
 		font-size: 1.2em;
 		margin-top: 0em;
 		margin-bottom: 0em;
 	}
-	h5 {
+	.project-subtitle-text {
 		color:#EEEEEE;
 		font-family: SourceSansPro-Light;
 		font-size: 1.2em;
 		margin-top: -0.8em;
 		margin-bottom: 0em;
-	}
-	h6 {
-		font-family: SourceSansPro;
-		font-size: .65em;
-		font-weight: normal;
-		margin: -8px 0px 12px 0px;
 	}
 	ul {
 		margin: 3px 0px 15px -20px;
@@ -797,25 +797,19 @@
 		font-family: Montserrat;
 		font-size: 1.4em;
 	}
-	h4 {
+	.quick-link-text {
 		color:#EEEEEE;
-		font-family: SourceSansPro-Light;
+		font-family: SourceSansPro;
 		font-size: 1.2em;
 		margin-top: 0em;
 		margin-bottom: 0em;
 	}
-	h5 {
+	.project-subtitle-text {
 		color:#EEEEEE;
 		font-family: SourceSansPro-Light;
 		font-size: 1.2em;
 		margin-top: -0.8em;
 		margin-bottom: 0em;
-	}
-	h6 {
-		font-family: SourceSansPro;
-		font-size: .65em;
-		font-weight: normal;
-		margin: -8px 0px 12px 0px;
 	}
 	ul {
 		margin: 3px 0px 15px -20px;
