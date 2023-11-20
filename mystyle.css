@@ -703,6 +703,9 @@
 	.project-div {
 		margin: 1em 1em 2em 1em;
 	}
+	.project-div-singlecolumn {
+		margin: 1em 1em 2em 1em;
+	}
 	.project-title {
 		margin: 16px 16px 16px 16px;
 	}
@@ -1035,6 +1038,9 @@
 		float: none;
 	}
 	.project-div {
+		margin: 1em 1em 2em 1em;
+	}
+	.project-div-singlecolumn {
 		margin: 1em 1em 2em 1em;
 	}
 	.project-title {
