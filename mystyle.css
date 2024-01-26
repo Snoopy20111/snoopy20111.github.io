@@ -497,7 +497,9 @@
 		background: #3D3D3D;
 		cursor: default;
 		font-family: SourceSansPro;
-		transition: max-height 0.5s ease-in;
+	}
+	.project-collapsible-text {
+		cursor: text;
 	}
 
 
