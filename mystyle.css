@@ -425,6 +425,7 @@
 	#button-reaper-repo {
 		display: block;
 		margin: 0px auto 0px auto;
+		float: none;
 	}
 	input[type='checkbox'] {
 		display: none;
