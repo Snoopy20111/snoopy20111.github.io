@@ -74,6 +74,10 @@
 	.ul-forza-awards {
 		margin: 0px 0px 20px -20px;
 	}
+	.li-forza-awards {
+		display: inline-grid;
+		width: 100%
+	}
 	.remove-top-margin-text {
 		margin: 0em 0em 1em 0em;
 	}
@@ -563,6 +567,10 @@
 	.ul-forza-awards {
 		margin: 3px 0px 15px -20px;
 	}
+	.li-forza-awards {
+		display: inline-grid;
+		width: 100%
+	}
 	p {
 		color:#EEEEEE;
 	}
@@ -985,6 +993,10 @@
 	}
 	.ul-forza-awards {
 		margin: 3px 0px 15px -20px;
+	}
+	.li-forza-awards {
+		display: inline-grid;
+		width: 100%
 	}
 	p {
 		color:#EEEEEE;
