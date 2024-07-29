@@ -393,6 +393,10 @@
 		width: 90%;
 		margin-top: 0.5em;
 	}
+	#img-obj-in-mirror {
+		width: 90%;
+		margin-top: 0.5em;
+	}
 	a.download-button-link {
 		-webkit-appearance: button;
 		-moz-appearance: button;
@@ -857,6 +861,12 @@
 		display: block;
 		margin: 20px auto 0px auto;
 	}
+	#img-obj-in-mirror {
+		--div-width: max(550px,min(38.5vw, 450px));
+		width: var(--div-width);
+		display: block;
+		margin: 20px auto 0px auto;
+	}
 	a.download-button-link {
 		-webkit-appearance: button;
 		-moz-appearance: button;
@@ -1225,6 +1235,9 @@
 		margin-top: 0.5em;
 	}
 	#img-arte-lumiere {
+		width: 100%;
+	}
+	#img-obj-in-mirror {
 		width: 100%;
 	}
 	a.download-button-link {
