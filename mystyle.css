@@ -180,12 +180,12 @@
 		margin: 0em 0em 0em 0.1em;
 		padding: 0em 0em 0em 0em;
 	}
-	#img-tumblr-header {
-		height: 1.11em;
+	#img-github-header {
+		height: 1.10em;
 		margin: 0em 0.05em;
 	}
-	#img-tumblr-footer {
-		width: 0.90em;
+	#img-github-footer {
+		width: 1.55em;
 		padding: .1em .1em 0em .1em;
 		margin: 0em .1em;
 	}
@@ -662,12 +662,12 @@
 		margin: 0em 0em 0em 0.1em;
 		padding: 0em 0em 0em 0em;
 	}
-	#img-tumblr-header {
-		height: 1.11em;
+	#img-github-header {
+		height: 1.10em;
 		margin: 0em 0.05em;
 	}
-	#img-tumblr-footer {
-		width: 0.95em;
+	#img-github-footer {
+		width: 1.55em;
 		padding: .1em .1em 0em .1em;
 		margin: 0em .1em;
 	}
@@ -1080,8 +1080,8 @@
 		margin: 0em 0em 0em 0.1em;
 		padding: 0em 0em 0em 0em;
 	}
-	#img-tumblr-footer {
-		width: 0.95em;
+	#img-github-footer {
+		width: 1.55em;
 		padding: .1em .1em 0em .1em;
 		margin: 0em .1em;
 	}
