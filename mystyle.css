@@ -523,7 +523,7 @@
 /****************************/
 
 /*Tablet Formatting*/
-@media (max-width: 874px) and (min-width: 610px) {
+@media (max-width: 875px) and (min-width: 609px) {
 	body {
 	  background-color:#000000;
 	  font-family: SourceSansPro;
