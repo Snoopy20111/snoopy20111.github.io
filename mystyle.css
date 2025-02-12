@@ -439,6 +439,11 @@
 		margin: 0px auto 0px auto;
 		float: none;
 	}
+	#img-troubadour-logo {
+		display: block;
+		margin: 0px auto 0px auto;
+		width: 200px;
+	}
 	input[type='checkbox'] {
 		display: none;
 	}
@@ -915,6 +920,11 @@
 		display: block;
 		margin: 0px auto 0px auto;
 	}
+	#img-troubadour-logo {
+		display: block;
+		margin: 0px auto 0px auto;
+		width: 200px;
+	}
 	.div-collapsible {
 		margin: .5em 2em 1em 2em;
 	}
@@ -1293,6 +1303,11 @@
 	#button-reaper-repo {
 		display: block;
 		margin: 0px auto 0px auto;
+	}
+	#img-troubadour-logo {
+		display: block;
+		margin: 0px auto 0px auto;
+		width: 200px;
 	}
 	.div-collapsible {
 		margin: .5em 2em 1em 2em;
