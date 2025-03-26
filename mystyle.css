@@ -61,6 +61,7 @@
 	}
 	p {
 		color:#EEEEEE;
+		text-wrap: balance;
 	}
 	.small-text {
 		font-size: .8em;
@@ -89,7 +90,7 @@
 		margin: auto;
 		min-width:1120px;
 		width: auto !important;/* Firefox will set width as auto */
-		width:1110px;          /* As IE6 ignores !important it will set width as 1100px; */
+		width:1110px;          /* As IE6 ignores !important it will set width as 1110px; */
 	}
 	.skip-to-content-link-top {
 		color: white;
@@ -371,7 +372,7 @@
 	.project-content-right {
 	}
 	.project-video-embed {
-		--div-width: max(408px,min(38.5vw, 450px));
+		--div-width: max(408px, min(38.5vw, 450px));
 		width: var(--div-width);
 		height: calc(var(--div-width) * 9 / 16);
 		margin: 0px 0px 6px 0px;
@@ -441,8 +442,9 @@
 	}
 	#img-troubadour-logo {
 		display: block;
-		margin: 0px auto 0px auto;
-		width: 200px;
+		margin: 5px auto 5px 5em;
+		padding: 0px 10px 10px 10px;
+		width: min(30%, 200px);
 	}
 	input[type='checkbox'] {
 		display: none;
