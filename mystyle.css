@@ -66,6 +66,9 @@
 	.small-text {
 		font-size: .8em;
 	}
+	.indent-text {
+		text-indent: 2em;
+	}
 	ul {
 		margin: -10px 0px 20px -20px;
 	}
@@ -141,6 +144,7 @@
 		display: normal;
 		align-items: flex-start;
 		color: #FFFFFF;
+		user-select: none;
 	}
 	#container-header-hr {
 		color: #D9D9D9;
@@ -197,11 +201,9 @@
 	}
 	#img-bio {
 		width: 16em;
-		margin: 1em .1em 1em .1em;
+		margin: 0.1em 2em 1em 1em;
 		border: 4px solid #4B4B4B;
-		display: flex;
-		align-items: center;
-		justify-content: right;
+		float: right;
 	}
 	.header-sidekick {
 		position: sticky;
@@ -274,6 +276,7 @@
 	}
 	.content-quicklinks-group-title {
 		margin: 25px 0px 25px 10px;
+		user-select: none;
 	}
 	.content-quick-link-div {
 		margin: 0px -15px 0px -15px;
@@ -301,12 +304,6 @@
 	.content-bio-div {
 		margin: 2em 7em 1em 7em;
 		display: flex;
-	}
-	.content-bio-text {
-		width:67.5%;
-		margin-right:20px;
-	}
-	.content-bio-img {
 	}
 	.content-bio-favgames-div {
 		margin: 2em 6em 1em 7em;
@@ -591,6 +588,9 @@
 	.small-text {
 		font-size: .85em;
 	}
+	.indent-text {
+		text-indent: 2em;
+	}
 	.content {
 		margin: auto;
 		width: auto !important;/* Firefox will set width as auto */
@@ -630,6 +630,7 @@
 		display: normal;
 		align-items: flex-start;
 		color: #FFFFFF;
+		user-select: none;
 	}
 	#container-header-hr {
 		color: #D9D9D9;
@@ -685,10 +686,9 @@
 	}
 	#img-bio {
 		width: 15em;
-		margin: 1em .1em 1em .1em;
+		margin: 0.4em 1em 0.4em 0em;
 		border: 4px solid #4B4B4B;
-		align-items: center;
-		justify-content: center;
+		float: left;
 	}
 	.header-sidekick {
 		position: sticky;
@@ -783,10 +783,6 @@
 	}
 	.content-bio-div {
 		margin: 1em 1em 1em 1em;
-	}
-	.content-bio-text {
-	}
-	.content-bio-img {
 	}
 	.content-bio-favgames-div {
 		margin: 1em 1em 1em 1em;
@@ -1027,6 +1023,9 @@
 	.small-text {
 		font-size: .9em;
 	}
+	.indent-text {
+		text-indent: 2em;
+	}
 	.content {
 		margin: auto;
 		width: auto !important;/* Firefox will set width as auto */
@@ -1066,6 +1065,7 @@
 		display: normal;
 		align-items: flex-start;
 		color: #FFFFFF;
+		user-select: none;
 	}
 	#container-header-hr {
 		color: #D9D9D9;
@@ -1104,10 +1104,9 @@
 	}
 	#img-bio {
 		width: 15em;
-		margin: 1em .1em 1em .1em;
+		margin: 0.4em 1.5em 0.5em 0em;
 		border: 4px solid #4B4B4B;
-		align-items: center;
-		justify-content: center;
+		float: left;
 	}
 	.header-sidekick {
 		position: sticky;
@@ -1197,10 +1196,6 @@
 	}
 	.content-bio-div {
 		margin: 1em 1em 1em 1em;
-	}
-	.content-bio-text {
-	}
-	.content-bio-img {
 	}
 	.content-bio-favgames-div {
 		margin: 1em 1em 1em 1em;
