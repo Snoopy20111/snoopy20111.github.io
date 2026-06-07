@@ -1119,6 +1119,20 @@
 		border: 4px solid #4B4B4B;
 		float: left;
 	}
+	/*Alternate img-bio alignment below 450 pixels wide*/
+	@media (max-width: 450px) {
+		#img-bio {
+			display: block;
+			margin: 0.4em auto 0.5em auto;
+			float: none;
+		}
+	}
+	@media (max-width: 300px) {
+		#img-bio {
+			width: 95%;
+		}
+	}
+	
 	.header-sidekick {
 		position: sticky;
 		top: 0;
