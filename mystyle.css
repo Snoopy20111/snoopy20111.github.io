@@ -53,6 +53,12 @@
 		margin-top: -1.35em;
 		margin-bottom: 0.45em;
 	}
+	.project-collapsible-subtitle-text {
+		color:#EEEEEE;
+		font-family: SourceSansPro-Light;
+		font-size: 1.2em;
+		margin: -0.75em 0em 0.45em 0.45em;
+	}
 	.favorites-headers {
 		color:#EEEEEE;
 		font-family: SourceSansPro-Light;
@@ -74,6 +80,9 @@
 	}
 	.ul-favorites-list {
 		margin: -10px 0px 20px -20px;
+	}
+	#Forza-Awards {
+		margin: 1em 7em 1em 7em;
 	}
 	.ul-forza-awards {
 		margin: 0px 0px 20px -20px;
@@ -360,6 +369,12 @@
 	}
 	.subproject-title {
 		margin: 0em 0em 1.25em 0em;
+	}
+	.project-summary-title {
+		color:#EEEEEE;
+		font-family: Montserrat;
+		font-size: 1.4em;
+		/*text-decoration: underline;*/
 	}
 	.subproject-title-block {
 		margin: 0em 0em 0.5em 0em;
@@ -838,6 +853,12 @@
 	.project-title {
 		margin: 16px 16px 16px 16px;
 	}
+	.project-summary-title {
+		color:#EEEEEE;
+		font-family: Montserrat;
+		font-size: 1.4em;
+		/*text-decoration: underline;*/
+	}
 	.subproject-title-block {
 		margin: 0em 0em 0.3em 0em;
 	}
@@ -1255,6 +1276,12 @@
 	}
 	.project-title {
 		margin: 16px 16px 16px 16px;
+	}
+	.project-summary-title {
+		color:#EEEEEE;
+		font-family: Montserrat;
+		font-size: 1.4em;
+		/*text-decoration: underline;*/
 	}
 	.subproject-title-block {
 		margin: 0em 0em 0.3em 0em;
