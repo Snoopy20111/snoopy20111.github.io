@@ -56,8 +56,8 @@
 	.project-collapsible-subtitle-text {
 		color:#EEEEEE;
 		font-family: SourceSansPro-Light;
-		font-size: 1.2em;
-		margin: -0.75em 0em 0.45em 0.45em;
+		font-size: 0.8em;
+		margin: 0em 0em 0em 1.1em;
 	}
 	.favorites-headers {
 		color:#EEEEEE;
@@ -390,15 +390,22 @@
 		margin: 0px 0px 6px 0px;
 		border: 4px solid #4B4B4B;
 	}
+	.project-video-embed-collapsible {
+		--div-width: max(350px, min(32vw, 450px));
+		width: var(--div-width);
+		height: calc(var(--div-width) * 9 / 16);
+		margin: 0px 0px 6px 0px;
+		border: 4px solid #4B4B4B;
+	}
 	.project-video-embed-block {
-		--div-width: max(408px,min(38.5vw, 450px));
+		--div-width: max(408px, min(38.5vw, 450px));
 		width: var(--div-width);
 		height: calc(var(--div-width) * 9 / 16);
 		margin: 0px 0px 20px 0px;
 		border: 4px solid #4B4B4B;
 	}
 	.project-slideshow-embed {
-		--div-width: max(375px,min(45vw, 500px));
+		--div-width: max(375px, min(45vw, 500px));
 		width: var(--div-width);
 		height: calc(var(--div-width) * 10 / 16);
 		margin: 0px 0px 20px 0px;
@@ -539,6 +546,16 @@
 		cursor: default;
 		font-family: SourceSansPro;
 	}
+	.project-collapsible-content-fullproj {
+		margin: .4em 0em 0em 0em;
+		padding: .75em .75em .75em .75em;
+		column-count: 2;
+		column-gap: 2em;
+		color: #CFCFCF;
+		background: #3D3D3D;
+		cursor: default;
+		font-family: SourceSansPro;
+	}
 	.project-collapsible-text {
 		cursor: text;
 	}
@@ -586,6 +603,12 @@
 		font-size: 1.2em;
 		margin-top: -0.8em;
 		margin-bottom: 0em;
+	}
+	.project-collapsible-subtitle-text {
+		color:#EEEEEE;
+		font-family: SourceSansPro-Light;
+		font-size: 0.8em;
+		margin: 0em 0em 0em 1.1em;
 	}
 	ul {
 		margin: 3px 0px 15px -20px;
@@ -869,15 +892,22 @@
 		width: 100%;
 	}
 	.project-video-embed {
-		--div-width: max(550px,min(38.5vw, 450px));
+		--div-width: max(550px, min(38.5vw, 450px));
 		width: var(--div-width);
 		height: calc(var(--div-width) * 9 / 16);
 		display: block;
 		margin: 20px auto 6px auto;
 		border: 4px solid #4B4B4B;
 	}
+	.project-video-embed-collapsible {
+		width: 60vw;
+		height: calc(60vw * (9 / 16));
+		display: block;
+		margin: 20px auto 6px auto;
+		border: 4px solid #4B4B4B;
+	}
 	.project-video-embed-block {
-		--div-width: max(550px,min(38.5vw, 450px));
+		--div-width: max(550px, min(38.5vw, 450px));
 		width: var(--div-width);
 		height: calc(var(--div-width) * 9 / 16);
 		display: block;
@@ -885,7 +915,7 @@
 		border: 4px solid #4B4B4B;
 	}
 	.project-slideshow-embed {
-		--div-width: max(550px,min(45vw, 500px));
+		--div-width: max(550px, min(45vw, 500px));
 		width: var(--div-width);
 		height: calc(var(--div-width) * 10 / 16);
 		margin: 0px 0px 20px 0px;
@@ -985,6 +1015,14 @@
 		cursor: default;
 		font-family: SourceSansPro;
 	}
+	.project-collapsible-content-fullproj {
+		margin: .4em 0em 0em 0em;
+		padding: .75em .75em .75em .75em;
+		color: #CFCFCF;
+		background: #3D3D3D;
+		cursor: default;
+		font-family: SourceSansPro;
+	}
 	.project-collapsible-text {
 		cursor: text;
 	}
@@ -1032,6 +1070,12 @@
 		font-size: 1.2em;
 		margin-top: -0.8em;
 		margin-bottom: 0em;
+	}
+	.project-collapsible-subtitle-text {
+		color:#EEEEEE;
+		font-family: SourceSansPro-Light;
+		font-size: 0.8em;
+		margin: 0em 0em 0em 1.1em;
 	}
 	ul {
 		margin: 3px 0px 15px -20px;
@@ -1294,21 +1338,31 @@
 	}
 	.project-video-embed {
 		width: 100%;
-		height: calc(100vw * (9 / 16));
+		height: calc(90vw * (9 / 16));
 		margin: 1.0em 0em 0.5em 0em;
+		border: 4px solid #4B4B4B;
+	}
+	.project-video-embed-collapsible {
+		width: 100%;
+		height: calc(95vw * (9 / 16));
+		display: block;
+		margin: 1.0em auto 0.5em auto;
 		border: 4px solid #4B4B4B;
 	}
 	.project-video-embed-block {
 		width: 100%;
-		height: calc(100vw * (9 / 16));
+		height: calc(90vw * (9 / 16));
 		margin: 1.0em 0em 0.5em 0em;
 		border: 4px solid #4B4B4B;
+		diplay: block;
 	}
 	.project-slideshow-embed {
 		width: 100%;
-		height: calc(100vw * (9 / 16));
+		height: calc(90vw * (9 / 16));
 		margin: 1.0em 0em 0.5em 0em;
 		border: 4px solid #4B4B4B;
+		display: flex;
+		justify-content: center;
 	}
 	.project-bandcamp-embed {
 		border: 0;
@@ -1389,6 +1443,14 @@
 		padding: .75em .75em .75em .75em;
 		column-count: 2;
 		column-gap: 2em;
+		color: #CFCFCF;
+		background: #3D3D3D;
+		cursor: default;
+		font-family: SourceSansPro;
+	}
+	.project-collapsible-content-fullproj {
+		margin: .4em 0em 0em 0em;
+		padding: .75em .75em .75em .75em;
 		color: #CFCFCF;
 		background: #3D3D3D;
 		cursor: default;
